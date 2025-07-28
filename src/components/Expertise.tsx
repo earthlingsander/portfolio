@@ -7,38 +7,31 @@ import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
     "React",
-    "TypeScript",
     "JavaScript",
     "HTML5",
     "CSS3",
     "SASS",
     "Flask",
     "Python",
-    "SQL",
-    "PostgreSQL",
+    "AWS",
+    "DynamoDB",
     "Postman"
 ];
 
 const labelsSecond = [
     "Git",
     "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Java",
+    "Android SDK",
+    "Firebase",
+    "HTML5",
+    "CSS3",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Java",
+    "Object-Oriented Programming (OOP)",
+    "Java Swing"
 ];
 
 function Expertise() {
@@ -49,8 +42,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <h3>Hotel Booking Platform </h3>
+                    <p>I developed an online hotel booking platform as a full-stack developer in a TechLauncher project. Using AWS Lambda (Python) and DynamoDB, I built the backend to support real-time booking and pricing. On the frontend, I used React and Tailwind CSS to create a responsive UI. I also designed RESTful APIs and collaborated with my team through Agile practices like daily stand-ups and code reviews.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -61,8 +54,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>Second-Hand Android App</h3>
+                    <p>I built a real-time second-hand marketplace app as an Android developer, using Firebase Auth, Realtime Database, and Cloud Storage for secure data syncing and user interactions. I implemented features like listing, image uploads, likes, and comments, and used B+ tree indexing to improve search performance.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,8 +66,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>Marrakesh Strategy Game</h3>
+                    <p>I developed a turn-based strategy board game in Java, simulating player movement, rug placement, and scoring. I applied object-oriented design to build modular components like Player, Board, and GameEngine, and implemented core game rules such as rug overlap detection and area control-based scoring.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (

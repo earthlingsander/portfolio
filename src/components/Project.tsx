@@ -22,8 +22,8 @@ function Project() {
                 <p>Developed a full-stack online hotel booking platform using React, Tailwind CSS, AWS Lambda (Python), and DynamoDB, with RESTful APIs and Agile collaboration..</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>Refresh App</h2></a>
+                <a href="https://www.refresh.app/" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.refresh.app/" target="_blank" rel="noreferrer"><h2>Refresh App</h2></a>
                 <p>Built and launched the Refresh iOS app with Swift, allowing users to book hotels in LA, San Francisco, Phoenix, and Austin with real-time availability, time slot selection, and dynamic pricing.</p>
             </div>
             <div className="project">

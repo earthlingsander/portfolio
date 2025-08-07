@@ -12,10 +12,9 @@ const labelsFirst = [
     "JavaScript",
     "HTML5",
     "CSS3",
-    "SASS",
-    "Flask",
     "Python",
-    "AWS",
+    "AWS Lambda",
+    "API Gateway",
     "DynamoDB",
     "Postman"
 ];

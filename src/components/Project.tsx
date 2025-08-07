@@ -19,7 +19,7 @@ function Project() {
             <div className="project">
                 <a href="https://www.refresh.app/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.refresh.app/" target="_blank" rel="noreferrer"><h2>Refresh Web</h2></a>
-                <p>Developed a full-stack online hotel booking platform using React, Tailwind CSS, AWS Lambda (Python), and DynamoDB, with RESTful APIs and Agile collaboration..</p>
+                <p>Developed a full-stack online hotel booking platform using React, Tailwind CSS, AWS Lambda (Python), and DynamoDB, with RESTful APIs and Agile collaboration.</p>
             </div>
             <div className="project">
                 <a href="https://www.refresh.app/" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>

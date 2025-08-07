@@ -56,7 +56,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faAndroid} size="3x"/>
                     <h3>Second-Hand Android App</h3>
-                    <p>I built a real-time second-hand marketplace app as an Android developer, using Firebase Auth, Realtime Database, and Cloud Storage for secure data syncing and user interactions. I implemented features like listing, image uploads, likes, and comments, and used B+ tree indexing to improve search performance.</p>
+                    <p>I collaborated with a team to build a real-time second-hand marketplace app as an Android developer. We used Firebase Auth, Realtime Database, and Cloud Storage to enable secure user authentication and data syncing. I focused on implementing image upload functionality and contributed to UI design to ensure a smooth and engaging user experience.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (

@@ -1,10 +1,12 @@
 import React from "react";
-import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import {
+  faReact,
+  faPython,
+  faAndroid
+} from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
-
 const labelsFirst = [
     "React",
     "JavaScript",
@@ -53,7 +55,7 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
+                    <FontAwesomeIcon icon={faAndroid} size="3x"/>
                     <h3>Second-Hand Android App</h3>
                     <p>I built a real-time second-hand marketplace app as an Android developer, using Firebase Auth, Realtime Database, and Cloud Storage for secure data syncing and user interactions. I implemented features like listing, image uploads, likes, and comments, and used B+ tree indexing to improve search performance.</p>
                     <div className="flex-chips">
